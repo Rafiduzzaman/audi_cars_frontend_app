@@ -1,12 +1,14 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import Header from './Components/header.jsx'
+import Form from './Components/Forms/deleteForm.jsx' // Import the deleteForm component for testing purposes
 import './App.css'
 
 function App() {
    return (
     <>
-      <h1 className='color-blue w-45 bg-indigo p-3 text-red'>Hello World</h1>
+      {/* <Header /> */}
+      <Form />
+
     </>
   )
 }
