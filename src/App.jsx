@@ -1,11 +1,13 @@
 import './App.css';
-
+import React from 'react';
+import DefaultSidebar from './Components/DefaultSidebar.jsx';
 function App() {
   return (
-    <>
-      <h1 className="color-blue w-45 bg-indigo p-3 text-red">Hello World</h1>
-    </>
-  );
+    <div className='side_panel'>
+      <DefaultSidebar/>
+  
+    </div>
+    );
 }
 
 export default App;
