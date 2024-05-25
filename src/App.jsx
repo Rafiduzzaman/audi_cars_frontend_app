@@ -1,16 +1,15 @@
-import { useState } from 'react'
 // import Header from './Components/header.jsx'
-import Form from './Components/Forms/deleteForm.jsx' // Import the deleteForm component for testing purposes
-import './App.css'
+import AddVehicleForm from './Components/Forms/addVehicleForm';
+import './App.css';
 
 function App() {
-   return (
+  return (
     <>
       {/* <Header /> */}
-      <Form />
+      <AddVehicleForm />
 
     </>
-  )
+  );
 }
 
-export default App
+export default App;
