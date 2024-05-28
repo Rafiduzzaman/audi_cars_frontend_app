@@ -5,7 +5,6 @@ function App() {
   return (
     <div className='side_panel'>
       <DefaultSidebar/>
-  
     </div>
     );
 }
