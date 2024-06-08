@@ -8,3 +8,36 @@
   padding: 2rem;
   text-align: center;
 } */
+
+.dm-serif-text-regular {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Phone */
+@media only screen and (max-width: 320px) {
+  .splash-screen {
+    position: inherit;
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url('./assets/images/audicar.png');
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.splash-screen {
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
+  background-image: url('./assets/images/audicar.png');
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen and (min-width: 769px) {
+  .splash-screen {
+    position: absolute;
+  }
+}

@@ -1,10 +1,15 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import SplashScreen from './pages/SplashScreen';
 import './App.css';
 
 function App() {
   return (
-    <>
-      <h1 className="color-blue w-45 bg-indigo p-3 text-red">Hello World</h1>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<SplashScreen />} />
+      </Routes>
+    </Router>
   );
 }
 
