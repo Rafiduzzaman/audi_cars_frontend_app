@@ -1,5 +1,5 @@
-import { defineConfig } from 'vite';// eslint-enable import/no-extraneous-dependencies
-import react from '@vitejs/plugin-react';// eslint-enable import/no-extraneous-dependencies
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
